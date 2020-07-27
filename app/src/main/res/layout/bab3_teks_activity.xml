@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/latihanbackground">
+
+    <ImageView
+        android:id="@+id/exit"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/button"
+        android:src="@drawable/ic_baseline_close_24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="النص 1"
+            android:textSize="17dp"
+            android:textColor="#172646"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="أَنَا طَالِبٌ فِي جَامِعَةِ أَنْتَسَارِي الْإِسْلاَمِيَّةِ الْحُكُوْمِيَّةِ بَنْجَرْمَاسِينْ. وَهِيَ جَامِعَةٌ مَشْهُوْرَةٌ فِي كَالِيْمَنْتَان. أَنَا أّدْرُسُ فِي كُلِّيَّةِ الْإِقْتِصَادِ وَالتِّجَارَةِ الْإِسْلاَمِيَّةِ. وَفِي الصَّبَاحِ أَذْهَبُ إِلَى الْجَامِعَةِ بِالْجَوَّالَةِ لِلتَّعَلُّمِ، وَأَرْجِعُ مِنْهَا فِي الْمَسَأءِ.
+وَفِي بَعْضِ الْأَحَيَانِ، أَذْهَبُ إِلَى الْمَكْتَبَةِ لِقِرَاءَةِ الْكُتُبِ. وَفِي الْمَكْتَبَةِ رُفُوْفٌ لِلْكُتُبِ، وَرَاءَ الرُّفُوْفِ مَكَاتِبُ وَكَرَاسِيُّ لِلْقِرَاءَةِ، وَجَانِبَ الرُّفُوْفِ حَاسُوْبٌ لِلْبَحْثِ عَنْ قَائِمَةِ الْكُتُبِ، وَأَمَامَ الرُّفُوْفِ دِيْوَانُ الْمُوَظَّفِيْنَ. وَبَعْدَ قِرَاءَةِ بَعْضِ الْكُتُبِ، أّذْهَبُ إِلَى مَسْجِدِ الْجَامِعَةِ لِصَلاَةِ الظُّهْرِ مَعَ الْجَمَاعَةِ. ثُمَّ أَذْهَبُ إِلَى الْمقْصَفِ لِأَتَنَاوَلَ الْغَدَاءَ.
+"
+            android:gravity="center"
+            android:fontFamily="@font/reguler"
+            android:textSize="18dp"
+            android:textColor="#172646"
+            android:padding="10dp"
+            android:layout_margin="15dp"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

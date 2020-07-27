@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1048653510037",
+    "firebase_url": "https://arab-urang.firebaseio.com",
+    "project_id": "arab-urang",
+    "storage_bucket": "arab-urang.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048653510037:android:18173cf4356160e7e0b29c",
+        "android_client_info": {
+          "package_name": "com.bahasaarab.bahasaarab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048653510037-gv67l18i7nfrtulnfc512acalnlcvaf5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bahasaarab.bahasaarab",
+            "certificate_hash": "9a0d7c29b1d2318bcdcf1b2d3b08005dc1165409"
+          }
+        },
+        {
+          "client_id": "1048653510037-e1r43fvb53fvj8ouur42vohbd8sjechn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2HYhh8N5Oc2x0PvZroO3-clw0Zq3deQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048653510037-e1r43fvb53fvj8ouur42vohbd8sjechn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

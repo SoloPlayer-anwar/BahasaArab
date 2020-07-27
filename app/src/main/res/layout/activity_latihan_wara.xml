@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.LatihanWaraActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linerlatihan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/pilihan">
+
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_kuning"
+                android:src="@drawable/ic_baseline_arrow_left_24" />
+
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ic_logistics_two_color"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/bold"
+                android:gravity="center"
+                android:text="القائمة للتدريب"
+                android:layout_margin="6dp"
+                android:textColor="#ffff"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_below="@id/linerlatihan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/bab1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="13dp"
+                android:background="@drawable/biru"
+                android:padding="6dp">
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_teks"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:fontFamily="@font/bold"
+                        android:gravity="center"
+                        android:text="الوحدة الأولى"
+                        android:textColor="#f2f2f2"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="10dp"
+                        android:drawableRight="@drawable/ic_baseline_star_24"
+                        android:drawablePadding="6dp"
+                        android:fontFamily="@font/reguler"
+                        android:text="Terdiri dari 5 Latihan"
+                        android:textColor="#f2f2f2" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/bab2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="13dp"
+                android:padding="6dp"
+                android:background="@drawable/biru">
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_teks"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="الوحدة الثانية"
+                        android:fontFamily="@font/bold"
+                        android:textColor="#f2f2f2"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="16dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Terdiri dari 3 Latihan"
+                        android:fontFamily="@font/reguler"
+                        android:textColor="#f2f2f2"
+                        android:drawableRight="@drawable/ic_baseline_star_24"
+                        android:drawablePadding="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="16dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bab3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="13dp"
+                android:padding="6dp"
+                android:background="@drawable/biru">
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_teks"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="الوحدة الثالثة"
+                        android:fontFamily="@font/bold"
+                        android:textColor="#f2f2f2"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="16dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Terdiri dari 3 Latihan"
+                        android:fontFamily="@font/reguler"
+                        android:textColor="#f2f2f2"
+                        android:drawableRight="@drawable/ic_baseline_star_24"
+                        android:drawablePadding="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="16dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/bab4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="13dp"
+                android:padding="6dp"
+                android:background="@drawable/biru">
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_teks"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="الوحدة الربعة"
+                        android:fontFamily="@font/bold"
+                        android:textColor="#f2f2f2"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="16dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Terdiri dari 3 Latihan"
+                        android:fontFamily="@font/reguler"
+                        android:textColor="#f2f2f2"
+                        android:drawableRight="@drawable/ic_baseline_star_24"
+                        android:drawablePadding="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="16dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/bab5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="13dp"
+                android:padding="6dp"
+                android:background="@drawable/biru">
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_teks"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="الوحدة الخامسة"
+                        android:fontFamily="@font/bold"
+                        android:textColor="#f2f2f2"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="16dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Terdiri dari 3 Latihan"
+                        android:fontFamily="@font/reguler"
+                        android:textColor="#f2f2f2"
+                        android:drawableEnd="@drawable/ic_baseline_star_24"
+                        android:drawablePadding="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="16dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bab6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="13dp"
+                android:padding="6dp"
+                android:background="@drawable/biru">
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_teks"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="الوحدة السادسة"
+                        android:fontFamily="@font/bold"
+                        android:textColor="#f2f2f2"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="16dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Terdiri dari 3 Latihan"
+                        android:fontFamily="@font/reguler"
+                        android:textColor="#f2f2f2"
+                        android:drawableRight="@drawable/ic_baseline_star_24"
+                        android:drawablePadding="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="16dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

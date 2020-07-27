@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bahasaarab.bahasaarab">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA" />
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.noActionBar">
+        <activity android:name=".LatihanBab1.ResultTanya3Bab1Activity"></activity>
+        <activity android:name=".LatihanBab1.LatihanTanya3Bab1Activity" />
+        <activity android:name=".LatihanBab1.ResultTanya2Bab1Activity" />
+        <activity android:name=".LatihanBab1.LatihanTanya2Bab1Activity" />
+        <activity android:name=".materisuara.MateriSuaraBab6Activity" />
+        <activity android:name=".materisuara.MateriSuaraBab5Activity" />
+        <activity android:name=".materisuara.MateriSuaraBab4Activity" />
+        <activity android:name=".materisuara.MateriSuaraBab3Activity" />
+        <activity android:name=".materisuara.MateriSuaraBab2Activity" />
+        <activity android:name=".Home.VideoWaraActivity" />
+        <activity android:name=".Home.Mp3WaraActivity" />
+        <activity android:name=".Home.LatihanWaraActivity" />
+        <activity android:name=".Home.MateriTeksWaraActivity" />
+        <activity android:name=".On1Activity" />
+        <activity android:name=".Ob3Activity" />
+        <activity android:name=".materisuara.MateriSuaraBab1Activity" />
+        <activity android:name=".chat.NewMessageActivity" />
+        <activity android:name=".SignIn.SignInActivity" />
+        <activity android:name=".Home.MenuAwalActivity" />
+        <activity android:name=".SignUp.PhotoScreenActivity" />
+        <activity android:name=".LatihanBab6.ResultTitik6Activity" />
+        <activity android:name=".LatihanBab6.LatihanTitik6Activity" />
+        <activity android:name=".LatihanBab6.ResultTanya6Activity" />
+        <activity android:name=".LatihanBab6.LatihanTanya6Activity" />
+        <activity android:name=".LatihanBab6.ResultGambar6Activity" />
+        <activity android:name=".LatihanBab6.LatihanGambar6Activity" />
+        <activity android:name=".LatihanBab5.ResultTitik5Activity" />
+        <activity android:name=".LatihanBab5.LatihanTitik5Activity" />
+        <activity android:name=".LatihanBab5.ResultTanya5Activity" />
+        <activity android:name=".LatihanBab5.LatihanTanya5Activity" />
+        <activity android:name=".LatihanBab5.ResultGambar5Activity" />
+        <activity android:name=".LatihanBab5.LatihanGambar5Activity" />
+        <activity android:name=".LatihanBab4.ResultTitik4Activity" />
+        <activity android:name=".LatihanBab4.LatihanTitik4Activity" />
+        <activity android:name=".LatihanBab4.ResultTanya4Activity" />
+        <activity android:name=".LatihanBab4.LatihanTanya4Activity" />
+        <activity android:name=".LatihanBab4.ResultGambar4Activity" />
+        <activity android:name=".LatihanBab4.LatihanGambar4Activity" />
+        <activity android:name=".LatihanBab3.ResultTitik3Activity" />
+        <activity android:name=".LatihanBab3.LatihanTitik3Activity" />
+        <activity android:name=".LatihanBab3.ResultTanya3Activity" />
+        <activity android:name=".LatihanBab3.LatihanTanya3Activity" />
+        <activity android:name=".LatihanBab3.ResultGambar3Activity" />
+        <activity android:name=".LatihanBab3.LatihanGambar3Activity" />
+        <activity android:name=".LatihanBab2.ResultTitik2Activity" />
+        <activity android:name=".LatihanBab2.LatihanTitik2Activity" />
+        <activity android:name=".LatihanBab2.ResultTanya2Activity" />
+        <activity android:name=".LatihanBab2.LatihanTanya2Activity" />
+        <activity android:name=".LatihanBab2.ResultGambar2Activity" />
+        <activity android:name=".LatihanBab2.LatihanGambar2Activity" />
+        <activity android:name=".LatihanBab1.ResultTitikActivity" />
+        <activity android:name=".LatihanBab1.LatihanTitikActivity" />
+        <activity android:name=".LatihanBab1.ResultTanyaActivity" />
+        <activity android:name=".LatihanBab1.LatihanTanyaActivity" />
+        <activity android:name=".LatihanBab1.ResultGambarActivity" />
+        <activity android:name=".LatihanBab1.LatihanGambarActivity" />
+        <activity android:name=".SignUp.DaftarActivity" />
+        <activity android:name=".materivideo.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

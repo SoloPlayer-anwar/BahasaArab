@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/latihanbackground">
+
+    <ImageView
+        android:id="@+id/exit"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/button"
+        android:src="@drawable/ic_baseline_close_24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="النص 1"
+            android:textSize="17dp"
+            android:textColor="#172646"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:fontFamily="@font/reguler"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="ذَهَبَ عَلِيٌّ وَزَيْدٌ إِلَى الْمَقْصَفِ لِلْغَدَاءِ وَيَجْلِسَانِ عَلَى الْمَقْعَدِ. ثُمَّ جَاءَ عَامِلُ الْمَقْصَفِ وَسَأَلَهُمَا: مَاذَا تُرِيْدَانِ أَنْ تَحْجِزَا؟ أَجَابَ عَلِيٌّ: أُرِيْدُ طَعَامًا وَشَرَابًا. هَلْ عِنْدَكَ رُزٌّ وَسَمَكٌ وَلَبَنٌ؟ قَالَ عَامِلُ الْمَقْصَفِ: نَعَمْ، عِنْدِيْ رُزٌّ وَسَمَكٌ، وَلَكِنْ لَيْسَ عِنْدِيْ لَبَنٌ، بَلْ عِنْدِيْ عَصِيْرٌ. ثُمَّ يَقُوْلُ زَيْدٌ لِعَامِلِ الْمَقْصَفِ: أَنَا أُرِيْدُ أَنْ أَحْجِزَ طَعَامًا وَشَرَابًا أَيْضًا. هَلْ عِنْدَكَ خُضَارٌ وَدَجَاجَةٌ وَشَايٌ؟ فَأَجَابَ عَامِلُ الْمَقْصَفِ : نَعَمْ، عِنْدِيْ خُضَارٌ وَدَجَاجَةٌ وَشَايٌ. هَيَّأَ عَامِلُ الْمَقْصَفِ رُزًّا وَسَمَكًا وَعَصِيْرًا لِعَلِيٍّ، وَخُضَارًا وَدَجَاجَةً وَشَايًا لِزَيْدٍ. وَبَعْدَ الْغَدَاءِ، دَفَعَ عَلِيٌّ وَزَيْدٌ الثَّمَنَ إِلَى الْمُحَاسِبِ ثُمَّ ذَهَبَا إِلَى مَسْجِدِ الْجَامِعَةِ لِأَدَاءِ صَلاَةِ الظُّهْرِ جَمَاعَةً.  "
+            android:textColor="#172646"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+</RelativeLayout>

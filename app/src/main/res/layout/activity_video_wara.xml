@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.VideoWaraActivity">
+
+    <LinearLayout
+        android:id="@+id/linervideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/pilihan">
+
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_kuning"
+                android:src="@drawable/ic_baseline_arrow_left_24" />
+
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ic_team_meeting__two_color"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/bold"
+                android:gravity="center"
+                android:layout_margin="6dp"
+                android:text="القائمة لمادة القراءة بالفيديو"
+                android:textColor="#ffff"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linervideo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/bab1video1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="13dp"
+                android:background="@drawable/btn_kuning"
+                android:padding="6dp">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_career__two_color"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="الوحدة الأولى"
+                        android:fontFamily="@font/bold"
+                        android:textColor="#000046"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="16dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Play"
+                        android:fontFamily="@font/reguler"
+                        android:textColor="#000046"
+                        android:drawableRight="@drawable/play"
+                        android:drawablePadding="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="16dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/bab2video2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="13dp"
+                android:padding="6dp"
+                android:background="@drawable/btn_kuning">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_career__two_color"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="الوحدة الثانية"
+                        android:fontFamily="@font/bold"
+                        android:textColor="#000046"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="16dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Play"
+                        android:fontFamily="@font/reguler"
+                        android:textColor="#000046"
+                        android:drawableRight="@drawable/play"
+                        android:drawablePadding="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="16dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bab3video3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="13dp"
+                android:padding="6dp"
+                android:background="@drawable/btn_kuning">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_career__two_color"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="الوحدة الثالثة"
+                        android:fontFamily="@font/bold"
+                        android:textColor="#000046"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="16dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Play"
+                        android:fontFamily="@font/reguler"
+                        android:textColor="#000046"
+                        android:drawableRight="@drawable/play"
+                        android:drawablePadding="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="16dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/bab4video4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="13dp"
+                android:padding="6dp"
+                android:background="@drawable/btn_kuning">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_career__two_color"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:fontFamily="@font/bold"
+                        android:gravity="center"
+                        android:text="الوحدة الربعة"
+                        android:textColor="#000046"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Play"
+                        android:fontFamily="@font/reguler"
+                        android:textColor="#000046"
+                        android:drawableRight="@drawable/play"
+                        android:drawablePadding="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="16dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/bab5video5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="13dp"
+                android:padding="6dp"
+                android:background="@drawable/btn_kuning">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_career__two_color"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:fontFamily="@font/bold"
+                        android:gravity="center"
+                        android:text="الوحدة الخامسة"
+                        android:textColor="#000046"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Play"
+                        android:fontFamily="@font/reguler"
+                        android:textColor="#000046"
+                        android:drawableRight="@drawable/play"
+                        android:drawablePadding="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="16dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bab6video6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="13dp"
+                android:padding="6dp"
+                android:background="@drawable/btn_kuning">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_career__two_color"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:fontFamily="@font/bold"
+                        android:gravity="center"
+                        android:text="الوحدة السادسة"
+                        android:textColor="#000046"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Play"
+                        android:fontFamily="@font/reguler"
+                        android:textColor="#000046"
+                        android:drawableRight="@drawable/play"
+                        android:drawablePadding="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="16dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

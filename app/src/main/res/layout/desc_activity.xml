@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+
+    <ImageView
+        android:id="@+id/ending"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/button"
+        android:src="@drawable/ic_baseline_close_24"
+        android:layout_alignParentRight="true"
+        android:layout_margin="6dp"/>
+
+    <TextView
+        android:id="@+id/kerabatKerja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kerabat Kerja"
+        android:layout_below="@id/ending"
+        android:gravity="center"
+        android:background="@drawable/button"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/penyusun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Penyusun\n\nRahmawati"
+        android:background="@drawable/btn_pilihanbab"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textSize="16dp"
+        android:fontFamily="@font/bold"
+        android:textColor="#172646"
+        android:layout_below="@id/kerabatKerja"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/pembimbing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dosen Pembimbing\n\n1. Dr. Zainal Fikri, M.Ag., MA., PhD\n2. Dr. Ridha Darmawaty, M.Pd"
+        android:background="@drawable/btn_pilihan"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textSize="16dp"
+        android:fontFamily="@font/bold"
+        android:textColor="#172646"
+        android:layout_below="@id/penyusun"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Progammer\n\nMuhammad Kaspul Anwar"
+        android:background="@drawable/btn_kuning"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textSize="16dp"
+        android:fontFamily="@font/bold"
+        android:textColor="#172646"
+        android:layout_below="@id/pembimbing"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

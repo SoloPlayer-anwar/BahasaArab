@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/latihanbackground">
+
+    <ImageView
+        android:id="@+id/exit"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/button"
+        android:src="@drawable/ic_baseline_close_24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="النص 1"
+            android:textSize="17dp"
+            android:textColor="#172646"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="أِسْمِيْ مَحْمُوْدٌ. أَنَا مِنْ بَنْجَرْمَاسِيْن. أَنَا طَالِبٌ فِى الْمُسْتَوَى الثَّانِي فِى هَذِهِ الْجَامِعَةِ. أَنَا طَالِبٌ فِى كُلِّيَّةِ الْإِقْتِصَادِ. وَهَذَا زَمِيْلِيْ زَكَرِيَّا. هُوَ طَبِيْبٌ فِى الْمُسْتَشْفَى الْكَبِيْرِ. وَهُوَ مِنْ مَدِيْنَةِ سُورَابَايَا"
+            android:gravity="center"
+            android:fontFamily="@font/reguler"
+            android:textSize="18dp"
+            android:textColor="#172646"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="النص 2"
+            android:textSize="17dp"
+            android:textColor="#172646"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="هَذِهِ تَاجِرَةٌ فِي سُوْقِ الْمَدِيْنَةِ. إِسْمُهَا حَلِيْمَةُ. هِيَ تَاجِرَةُ الْمَلاَبِسِ بَاتِيكْ سُوْلُوْ. هِيَ مِنْ مَدِيْنَةِ فَكَالُونْجَانْ. وَهَذِهِ صَدِيْقَتُهَا نَجْوَى. هِيَ تَاجِرَةٌ أَيْضًا. هِيَ مِنْ مَدِيْنَةِ جُوكْجَاكَرْتَا. وَذَلِكَ صَدِيْقُهَا دُوْنِي. هُوَ مُهَنْدِسٌ مَاهِرٌ. هُوَ مِنْ مَدِيْنَةِ فُونْتِيَانَاك."
+            android:gravity="center"
+            android:fontFamily="@font/reguler"
+            android:textSize="18dp"
+            android:textColor="#172646"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

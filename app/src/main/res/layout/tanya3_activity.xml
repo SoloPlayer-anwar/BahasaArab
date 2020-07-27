@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000046">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_gravity="right"
+            android:layout_width="30dp"
+            android:padding="5dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button"
+            android:src="@drawable/ic_baseline_close_24" />
+
+
+        <ImageView
+            android:id="@+id/securi"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="24dp"
+            android:src="@drawable/ic_logistics_two_color" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="َا طَالِبٌ فِي جَامِعَةِ أَنْتَسَارِي الْإِسْلاَمِيَّةِ الْحُكُوْمِيَّةِ بَنْجَرْمَاسِينْ. وَهِيَ جَامِعَةٌ مَشْهُوْرَةٌ فِي كَالِيْمَنْتَان. أَنَا أّدْرُسُ فِي كُلِّيَّةِ الْإِقْتِصَادِ وَالتِّجَارَةِ الْإِسْلاَمِيَّةِ. وَفِي الصَّبَاحِ أَذْهَبُ إِلَى الْجَامِعَةِ بِالْجَوَّالَةِ لِلتَّعَلُّمِ، وَأَرْجِعُ مِنْهَا فِي الْمَسَأءِ.
+ وَفِي بَعْضِ الْأَحَيَانِ، أَذْهَبُ إِلَى الْمَكْتَبَةِ لِقِرَاءَةِ الْكُتُبِ. وَفِي الْمَكْتَبَةِ رُفُوْفٌ لِلْكُتُبِ، وَرَاءَ الرُّفُوْفِ مَكَاتِبُ وَكَرَاسِيُّ لِلْقِرَاءَةِ، وَجَانِبَ الرُّفُوْفِ حَاسُوْبٌ لِلْبَحْثِ عَنْ قَائِمَةِ الْكُتُبِ، وَأَمَامَ الرُّفُوْفِ دِيْوَانُ الْمُوَظَّفِيْنَ. وَبَعْدَ قِرَاءَةِ بَعْضِ الْكُتُبِ، أّذْهَبُ إِلَى مَسْجِدِ الْجَامِعَةِ لِصَلاَةِ الظُّهْرِ مَعَ الْجَمَاعَةِ. ثُمَّ أَذْهَبُ إِلَى الْمقْصَفِ لِأَتَنَاوَلَ الْغَدَاءَ.
+"
+            android:layout_marginTop="20dp"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:fontFamily="sans-serif"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:textColor="#ffff"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

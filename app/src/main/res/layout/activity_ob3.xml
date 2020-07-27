@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ob3Activity">
+
+    <ImageView
+        android:id="@+id/ob3"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ob1" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:fontFamily="@font/reguler"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="بدأ تعليم اللغة العربية من الأساس. التطبيقات تتكون من المفردات ومادة لقراءة ومادة لقراءة بالفيديو والتدريبات"
+        android:textColor="#172646"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/ob3"
+        app:layout_constraintStart_toStartOf="@+id/ob3"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button"
+        android:text="التالي"
+        android:textColor="#f2f2f2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/lewati"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape"
+        android:text="أنتهى"
+        android:textColor="#172646"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/next"
+        app:layout_constraintEnd_toEndOf="@+id/next"
+        app:layout_constraintStart_toStartOf="@+id/next" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="14dp"
+        android:text="هيا نتعلم "
+        android:gravity="center"
+        android:textColor="#172646"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/ob3"
+        app:layout_constraintStart_toStartOf="@+id/ob3"
+        app:layout_constraintTop_toBottomOf="@+id/ob3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LatihanBab4.LatihanTitik4Activity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/backgroundhome"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/kembali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/bantuan"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button"
+                android:padding="5dp"
+                android:src="@drawable/ic_baseline_build_24" />
+
+
+            <ImageView
+                android:id="@+id/meran"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_logistics_two_color"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="3dp"
+                android:textColor="#000046"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginRight="3dp"
+                android:textSize="18dp"
+                android:text="املأ  الفراغ باختار الكلمة المناسبة وفقا للنص السابق"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:background="@drawable/latihanbackground"
+        android:layout_below="@id/linearLayout2"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:background="@drawable/latihanbackground">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/panel_soal_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.	ذَهَبَ عَلِيٌّ وَزَيْدٌ إِلَى الْمَقْصَفِ لِلْغَدَاءِ وَيَجْلِسَانِ عَلَى..... "
+                        android:textSize="16dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="#000046"
+                        android:layout_marginRight="5dp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/radiogroup1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="5dp">
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="الْمَقْعَدِ"
+                            android:textSize="16dp"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="الْبِلاَطِ"
+                            android:textSize="16dp"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="الْكُرْسِيِّ"
+                            android:textSize="16dp"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="الْمَكْتَبِ"
+                            android:textSize="16dp"/>
+                    </RadioGroup>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/panel_soal_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2.	هَيَّأَ عَامِلُ الْمَقْصَفِ ..... لِعَلِيٍّ"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="#000046"
+                        android:textSize="16dp"
+                        android:layout_marginRight="5dp"
+                        android:textStyle="bold"/>
+
+                    <RadioGroup
+                        android:id="@+id/radiogroup2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="5dp">
+
+                        <RadioButton
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="سَمَكًا"
+                            android:textSize="16dp"/>
+
+                        <RadioButton
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="رُزًّا وَسَمَكًا وَعَصِيْرًا"
+                            android:textSize="16dp"/>
+
+                        <RadioButton
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="رُزًّا"
+                            android:textSize="16dp"/>
+
+                        <RadioButton
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="عَصِيْرًا"
+                            android:textSize="16dp"/>
+                    </RadioGroup>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/panel_soal_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardPreventCornerOverlap="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3.	وَهَيَّأَ عَامِلُ الْمَقْصَفِ ......  لِزَيْدٍ"
+                        android:textSize="16dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textStyle="bold"
+                        android:layout_marginRight="5dp"
+                        android:textColor="#000046"/>
+
+                    <RadioGroup
+                        android:id="@+id/radiogroup3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="5dp">
+
+                        <RadioButton
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="وَخُضَارًا وَدَجَاجَةً وَشَايًا"
+                            android:textSize="16dp"/>
+
+                        <RadioButton
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="شَايًا"
+                            android:textSize="16dp"/>
+
+                        <RadioButton
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="خُضَارًا"
+                            android:textSize="16dp"/>
+
+                        <RadioButton
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="دَجَاجَةً"
+                            android:textSize="16dp"/>
+                    </RadioGroup>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/panel_soal_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="4.	وَبَعْدَ الْغَدَاءِ، ...... عَلِيٌّ وَزَيْدٌ الثَّمَنَ إِلَى الْمُحَاسِبِ"
+                        android:textSize="16dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textStyle="bold"
+                        android:textColor="#000046"
+                        android:layout_marginRight="5dp" />
+
+                    <RadioGroup
+                        android:id="@+id/radiogroup4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="5dp">
+
+                        <RadioButton
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="يَأْكُلَانِ"
+                            android:textSize="16dp"/>
+
+                        <RadioButton
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="يَذْهَبَانِ"
+                            android:textSize="16dp"/>
+
+                        <RadioButton
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="دَفَعَ"
+                            android:textSize="16dp"/>
+
+                        <RadioButton
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="يَشْرَبَانِ"
+                            android:textSize="16dp"/>
+                    </RadioGroup>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/panel_soal_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="5.	ثُمَّ ذَهَبَا إِلَى مَسْجِدِ الْجَامِعَةِ ..... صَلاَةِ الظُّهْرِ جَمَاعَةً."
+                        android:textSize="16dp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="#000046"
+                        android:layout_marginRight="5dp"
+                        android:textStyle="bold"/>
+
+                    <RadioGroup
+                        android:id="@+id/radiogroup5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="5dp">
+
+                        <RadioButton
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="لِأَدَاءِ"
+                            android:textSize="16dp"/>
+
+                        <RadioButton
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="لِيَذْهَبَا"
+                            android:textSize="16dp"/>
+
+                        <RadioButton
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ِيَدْفَع"
+                            android:textSize="16dp"/>
+
+                        <RadioButton
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ِيَشْرَبَا"
+                            android:textSize="16dp"/>
+                    </RadioGroup>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/button_proses"
+                android:layout_marginVertical="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Proses"
+                android:textColor="#ffff"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="24dp"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:background="@drawable/button"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".materisuara.MateriSuaraBab3Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button"
+                android:src="@drawable/ic_baseline_arrow_left_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilihan Kategori"
+                android:layout_gravity="center"
+                android:fontFamily="@font/bold"
+                android:textColor="#172646"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_pilihanbab"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:id="@+id/kantin"
+                    android:layout_height="80dp"
+                    app:civ_border_color="#172646"
+                    app:civ_border_width="5dp"
+                    android:layout_margin="8dp"/>
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="مَقْصَفٌ"
+                    android:layout_margin="8dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_pilihan"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#172646"
+                    android:onClick="bab3sound1"
+                    android:drawableRight="@drawable/suara"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_pilihanbab"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:id="@+id/kumpulandosen"
+                    android:layout_height="80dp"
+                    app:civ_border_color="#172646"
+                    app:civ_border_width="5dp"
+                    android:layout_margin="8dp"/>
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="كُلِّيَّةٌ"
+                    android:layout_margin="8dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_pilihan"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#172646"
+                    android:onClick="bab3sound2"
+                    android:drawableRight="@drawable/suara"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_pilihanbab"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:id="@+id/subuh"
+                    android:layout_height="80dp"
+                    app:civ_border_color="#172646"
+                    app:civ_border_width="5dp"
+                    android:layout_margin="8dp"/>
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="صَبَاحٌ"
+                    android:layout_margin="8dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_pilihan"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#172646"
+                    android:onClick="bab3sound3"
+                    android:drawableRight="@drawable/suara"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_pilihanbab"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:id="@+id/sore"
+                    android:layout_height="80dp"
+                    app:civ_border_color="#172646"
+                    app:civ_border_width="5dp"
+                    android:layout_margin="8dp"/>
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="مَسَاءُ"
+                    android:layout_margin="8dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_pilihan"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#172646"
+                    android:onClick="bab3sound4"
+                    android:drawableRight="@drawable/suara"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_pilihanbab"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:id="@+id/motorsaya"
+                    android:layout_height="80dp"
+                    app:civ_border_color="#172646"
+                    app:civ_border_width="5dp"
+                    android:layout_margin="8dp"/>
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="جَوَّالَةٌ"
+                    android:layout_margin="8dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_pilihan"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#172646"
+                    android:onClick="bab3sound5"
+                    android:drawableRight="@drawable/suara"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_pilihanbab"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:id="@+id/perpussaya"
+                    android:layout_height="80dp"
+                    app:civ_border_color="#172646"
+                    app:civ_border_width="5dp"
+                    android:layout_margin="8dp"/>
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="مَكْتَبَةٌ"
+                    android:layout_margin="8dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_pilihan"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#172646"
+                    android:onClick="bab3sound6"
+                    android:drawableRight="@drawable/suara"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_pilihanbab"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:id="@+id/bukusaya"
+                    android:layout_height="80dp"
+                    app:civ_border_color="#172646"
+                    app:civ_border_width="5dp"
+                    android:layout_margin="8dp"/>
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="كُتُبٌ"
+                    android:layout_margin="8dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_pilihan"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#172646"
+                    android:onClick="bab3sound7"
+                    android:drawableRight="@drawable/suara"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_pilihanbab"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:id="@+id/rakbuku"
+                    android:layout_height="80dp"
+                    app:civ_border_color="#172646"
+                    app:civ_border_width="5dp"
+                    android:layout_margin="8dp"/>
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="رُفُوْفٌ"
+                    android:layout_margin="8dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_pilihan"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#172646"
+                    android:onClick="bab3sound8"
+                    android:drawableRight="@drawable/suara"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_pilihanbab"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:id="@+id/meja"
+                    android:layout_height="80dp"
+                    app:civ_border_color="#172646"
+                    app:civ_border_width="5dp"
+                    android:layout_margin="8dp"/>
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="مَكْتَبٌ"
+                    android:layout_margin="8dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_pilihan"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#172646"
+                    android:onClick="bab3sound9"
+                    android:drawableRight="@drawable/suara"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_pilihanbab"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:id="@+id/kompi"
+                    android:layout_height="80dp"
+                    app:civ_border_color="#172646"
+                    app:civ_border_width="5dp"
+                    android:layout_margin="8dp"/>
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="حَاسُوْبٌ"
+                    android:layout_margin="8dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_pilihan"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#172646"
+                    android:onClick="bab3sound10"
+                    android:drawableRight="@drawable/suara"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_pilihanbab"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:id="@+id/kursi"
+                    android:layout_height="80dp"
+                    app:civ_border_color="#172646"
+                    app:civ_border_width="5dp"
+                    android:layout_margin="8dp"/>
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="كُرِسِيٌّ"
+                    android:layout_margin="8dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_pilihan"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#172646"
+                    android:onClick="bab3sound11"
+                    android:drawableRight="@drawable/suara"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_pilihanbab"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:id="@+id/berkumpul"
+                    android:layout_height="80dp"
+                    app:civ_border_color="#172646"
+                    app:civ_border_width="5dp"
+                    android:layout_margin="8dp"/>
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="تَنَاوَلَ-يَتَنَاوَلُ"
+                    android:layout_margin="6dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_pilihan"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#172646"
+                    android:onClick="bab3sound12"
+                    android:drawableRight="@drawable/suara"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_pilihanbab"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:id="@+id/mengajar"
+                    android:layout_height="80dp"
+                    app:civ_border_color="#172646"
+                    app:civ_border_width="5dp"
+                    android:layout_margin="8dp"/>
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="دَرَسَ-يَدْرُسُ"
+                    android:layout_margin="6dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_pilihan"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#172646"
+                    android:onClick="bab3sound13"
+                    android:drawableRight="@drawable/suara"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_pilihanbab"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:id="@+id/berjalan"
+                    android:layout_height="80dp"
+                    app:civ_border_color="#172646"
+                    app:civ_border_width="5dp"
+                    android:layout_margin="8dp"/>
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ذَهَبَ- يَذْهَبُ"
+                    android:layout_margin="6dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_pilihan"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#172646"
+                    android:onClick="bab3sound14"
+                    android:drawableRight="@drawable/suara"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

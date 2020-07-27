@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".materisuara.MateriSuaraBab6Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/cuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:src="@drawable/ic_baseline_arrow_left_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilihan Kategori"
+        android:layout_gravity="center"
+        android:fontFamily="@font/bold"
+        android:textColor="#172646"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_pilihanbab"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/sepakbola"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            app:civ_border_color="#172646"
+            app:civ_border_width="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="كُرَةُ الْقَدَمِ"
+            android:layout_margin="6dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_pilihan"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="#172646"
+            android:onClick="bab6sound1"
+            android:drawableRight="@drawable/suara"/>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_pilihanbab"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/lapanganbola"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                app:civ_border_color="#172646"
+                app:civ_border_width="5dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مَلْعَبٌ"
+                android:layout_margin="6dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_pilihan"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="#172646"
+                android:onClick="bab6sound2"
+                android:drawableRight="@drawable/suara"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_pilihanbab"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cuaca"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                app:civ_border_color="#172646"
+                app:civ_border_width="5dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الْجَوُّ"
+                android:layout_margin="6dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_pilihan"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="#172646"
+                android:onClick="bab6sound3"
+                android:drawableRight="@drawable/suara"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_pilihanbab"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/sportolah"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                app:civ_border_color="#172646"
+                app:civ_border_width="5dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="رِيَاضَةٌ"
+                android:layout_margin="6dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_pilihan"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="#172646"
+                android:onClick="bab6sound4"
+                android:drawableRight="@drawable/suara"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_pilihanbab"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/tidur"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            app:civ_border_color="#172646"
+            app:civ_border_width="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="النَّوْمُ"
+            android:layout_margin="6dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_pilihan"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="#172646"
+            android:onClick="bab6sound5"
+            android:drawableRight="@drawable/suara"/>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_pilihanbab"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/berwudhu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                app:civ_border_color="#172646"
+                app:civ_border_width="5dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="يَتَوَضَّأُ"
+                android:layout_margin="6dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_pilihan"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="#172646"
+                android:onClick="bab6sound6"
+                android:drawableRight="@drawable/suara"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_pilihanbab"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/sholatan"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="8dp"
+                app:civ_border_color="#172646"
+                app:civ_border_width="5dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="يُصَلِّي"
+                android:layout_margin="6dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_pilihan"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="#172646"
+                android:onClick="bab6sound7"
+                android:drawableRight="@drawable/suara"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000046">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_gravity="right"
+            android:layout_width="30dp"
+            android:padding="5dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button"
+            android:src="@drawable/ic_baseline_close_24" />
+
+
+        <ImageView
+            android:id="@+id/securi"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="24dp"
+            android:src="@drawable/ic_logistics_two_color" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="لِيْ أُسْرَةٌ كَبِيْرَةٌ. تَتَكَوَّنُ مِنْ أَبٍ وَأُمٍّ وأَخٍ وأُخْتٍ وَجَدٍّ وَجَدَّةٍ، إِسْمُ أَبِيْ أَحْمَدْ هُوَ مُحَاضِرٌ فِى جَامِعَةِ أَنْتَسَارِي الإِسْلاَمِيَّةِ الْحُكُوْمِيَّةِ، وَإِسْمُ أُمِّيْ عَائِشَةُ هِيَ مُدَرِّسَةٌ فِي الْمَدْرَسَةِ. لِيْ أُخْتٌ كَبِيْرَةٌ إِسْمُهَأ سَلْمَى هِيَ مُمَرِّضَةٌ فِي الْمُسْتَشْفَى، وَلِيْ أَخٌ صَغِيْرٌ أيْضًا إِسْمُهُ مُوِسَى هُوَ طَالِبٌ فِي الْمَدْرَسَةِ. أَمَّا جَدِّيْ إِسْمُهُ إبْرَهِيمْ هُوَ تَاجِرٌ فِي السُّوْقِ وَجَدَّتِيْ إسْمُهَا زَيْنَبْ هِيَ فَلاَّحَةٌ فِي الْمَزْرَعَةِ. نَحْنُ نَعِيْشُ فِي أُسْرَةٍ سَعِيْدَةٍ."
+            android:layout_marginTop="20dp"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:fontFamily="sans-serif"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:textColor="#ffff"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

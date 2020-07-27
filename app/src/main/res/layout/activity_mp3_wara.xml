@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.Mp3WaraActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linear4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/pilihan">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_kuning"
+            android:src="@drawable/ic_baseline_arrow_left_24" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_word"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="القائمة للمفردات"
+            android:textSize="19dp"
+            android:layout_margin="6dp"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:fontFamily="@font/bold"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linear4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/bab1Mp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="13dp"
+                android:background="@drawable/btn_pilihanbab"
+                android:padding="6dp">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_start_up_two_color"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="المفردات لوحدة الأولى"
+                        android:fontFamily="@font/bold"
+                        android:textColor="#f2f2f2"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="16dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="12 Kosa kata"
+                        android:fontFamily="@font/reguler"
+                        android:textColor="#f2f2f2"
+                        android:drawableRight="@drawable/ic_baseline_star_24"
+                        android:drawablePadding="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="16dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/bab2mp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="13dp"
+                android:padding="6dp"
+                android:background="@drawable/btn_pilihanbab">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_start_up_two_color"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="المفردات لوحدة الثانية"
+                        android:fontFamily="@font/bold"
+                        android:textColor="#f2f2f2"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="16dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="11 Kosa kata"
+                        android:fontFamily="@font/reguler"
+                        android:textColor="#f2f2f2"
+                        android:drawableRight="@drawable/ic_baseline_star_24"
+                        android:drawablePadding="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="16dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bab3mp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="13dp"
+                android:padding="6dp"
+                android:background="@drawable/btn_pilihanbab">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_start_up_two_color"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="المفردات لوحدة الثالثة"
+                        android:fontFamily="@font/bold"
+                        android:textColor="#f2f2f2"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="16dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="14 Kosa kata"
+                        android:fontFamily="@font/reguler"
+                        android:textColor="#f2f2f2"
+                        android:drawableRight="@drawable/ic_baseline_star_24"
+                        android:drawablePadding="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="16dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/bab4mp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="13dp"
+                android:padding="6dp"
+                android:background="@drawable/btn_pilihanbab">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_start_up_two_color"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="المفردات لوحدة الربعة"
+                        android:fontFamily="@font/bold"
+                        android:textColor="#f2f2f2"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="16dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="16 Kosa kata"
+                        android:fontFamily="@font/reguler"
+                        android:textColor="#f2f2f2"
+                        android:drawableRight="@drawable/ic_baseline_star_24"
+                        android:drawablePadding="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="16dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/bab5mp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="13dp"
+                android:padding="6dp"
+                android:background="@drawable/btn_pilihanbab">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_start_up_two_color"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="المفردات لوحدة الخامسة"
+                        android:fontFamily="@font/bold"
+                        android:textColor="#f2f2f2"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="16dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="8 Kosa kata"
+                        android:fontFamily="@font/reguler"
+                        android:textColor="#f2f2f2"
+                        android:drawableRight="@drawable/ic_baseline_star_24"
+                        android:drawablePadding="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="16dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bab6mp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="13dp"
+                android:padding="6dp"
+                android:background="@drawable/btn_pilihanbab">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_start_up_two_color"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="المفردات لوحدة السادسة"
+                        android:fontFamily="@font/bold"
+                        android:textColor="#f2f2f2"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="16dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="7 Kosa kata"
+                        android:fontFamily="@font/reguler"
+                        android:textColor="#f2f2f2"
+                        android:drawableRight="@drawable/ic_baseline_star_24"
+                        android:drawablePadding="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="16dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
